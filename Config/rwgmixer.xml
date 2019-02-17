@@ -2,7 +2,6 @@
 
 <remove xpath="/rwgmixer/cell_rules/default">
 <append xpath="/rwgmixer/cell_rules">
-  <cell_rules>
 		<cell_rule name="default">
 			<hub_rule name="asiatown" prob="0.2" />	
 			<hub_rule name="oldwesttown" prob="0.15" />	
@@ -16,141 +15,138 @@
 			<hub_rule name="default" prob="0.3" />
 			<wilderness_rule name="default" prob="1"/>
 		</cell_rule>
-	</cell_rules>
 </append>
 
 <append xpath="/rwgmixer/hub_rules">  
-  <hub_rules>
-    <hub_rule name="asiatown">
-      <prefab_rule name="asiatownPOIS"/>
-      <street_gen level="25" length_multiplier="6">
-        <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
-        <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
-        <alt_commands chars="T,I,N,K"/> 
-      </street_gen>
-    </hub_rule>		
+  <hub_rule name="asiatown">
+    <prefab_rule name="asiatownPOIS"/>
+    <street_gen level="25" length_multiplier="6">
+      <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+      <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+      <alt_commands chars="T,I,N,K"/> 
+    </street_gen>
+  </hub_rule>		
 
-    <hub_rule name="oldwesttown">
-      <prefab_rule name="oldwestPOIS"/>
-      <street_gen level="25" length_multiplier="6">
-        <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
-        <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
-        <alt_commands chars="T,I,N,K"/> 
-      </street_gen>
-    </hub_rule>		
-    
-    <hub_rule name="newtown">
-      <prefab_rule name="newtownPOIS"/>
-      <street_gen level="25" length_multiplier="6">
-        <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
-        <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
-        <alt_commands chars="T,I,N,K"/> 
-      </street_gen>
-    </hub_rule>
+  <hub_rule name="oldwesttown">
+    <prefab_rule name="oldwestPOIS"/>
+    <street_gen level="25" length_multiplier="6">
+      <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+      <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+      <alt_commands chars="T,I,N,K"/> 
+    </street_gen>
+  </hub_rule>		
+  
+  <hub_rule name="newtown">
+    <prefab_rule name="newtownPOIS"/>
+    <street_gen level="25" length_multiplier="6">
+      <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+      <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+      <alt_commands chars="T,I,N,K"/> 
+    </street_gen>
+  </hub_rule>
 
-    <hub_rule name="bigcitytown">
-      <downtown_zone_size_perc value="0.45"/>
-      <prefab_rule name="bigcitytownPOIS"/>
-      <street_gen level="50" length_multiplier="4">
-        <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
-        <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
-        <alt_commands chars="T,I,N,K"/> 
-      </street_gen>
-    </hub_rule>
+  <hub_rule name="bigcitytown">
+    <downtown_zone_size_perc value="0.45"/>
+    <prefab_rule name="bigcitytownPOIS"/>
+    <street_gen level="50" length_multiplier="4">
+      <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+      <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+      <alt_commands chars="T,I,N,K"/> 
+    </street_gen>
+  </hub_rule>
 
-    <hub_rule name="rustyruraltown">
-      <prefab_rule name="rustyruraltownPOIS"/>
-      <street_gen level="25" length_multiplier="6">
-        <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
-        <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
-        <alt_commands chars="T,I,N,K"/> 
-      </street_gen>
-    </hub_rule>
+  <hub_rule name="rustyruraltown">
+    <prefab_rule name="rustyruraltownPOIS"/>
+    <street_gen level="25" length_multiplier="6">
+      <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+      <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+      <alt_commands chars="T,I,N,K"/> 
+    </street_gen>
+  </hub_rule>
 
-    <hub_rule name="destroyedtown">
-      <downtown_zone_size_perc value="0.45"/>
-      <prefab_rule name="destroyedtownPOIS"/>
-      <street_gen level="25" length_multiplier="6">
-        <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
-        <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
-        <alt_commands chars="T,I,N,K"/> 
-      </street_gen>
-    </hub_rule>		
+  <hub_rule name="destroyedtown">
+    <downtown_zone_size_perc value="0.45"/>
+    <prefab_rule name="destroyedtownPOIS"/>
+    <street_gen level="25" length_multiplier="6">
+      <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+      <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+      <alt_commands chars="T,I,N,K"/> 
+    </street_gen>
+  </hub_rule>		
 
-    <hub_rule name="commontown1">
-      <downtown_zone_size_perc value="0.45"/>
-      <prefab_rule name="commontown1POIS"/>
-      <street_gen level="25" length_multiplier="6">
-        <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
-        <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
-        <alt_commands chars="T,I,N,K"/> 
-      </street_gen>
-    </hub_rule>		
+  <hub_rule name="commontown1">
+    <downtown_zone_size_perc value="0.45"/>
+    <prefab_rule name="commontown1POIS"/>
+    <street_gen level="25" length_multiplier="6">
+      <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+      <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+      <alt_commands chars="T,I,N,K"/> 
+    </street_gen>
+  </hub_rule>		
 
-    <hub_rule name="commontown2">
-      <downtown_zone_size_perc value="0.45"/>
-      <prefab_rule name="commontown2POIS"/>
-      <street_gen level="25" length_multiplier="6">
-        <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
-        <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
-        <alt_commands chars="T,I,N,K"/> 
-      </street_gen>
-    </hub_rule>
+  <hub_rule name="commontown2">
+    <downtown_zone_size_perc value="0.45"/>
+    <prefab_rule name="commontown2POIS"/>
+    <street_gen level="25" length_multiplier="6">
+      <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+      <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+      <alt_commands chars="T,I,N,K"/> 
+    </street_gen>
+  </hub_rule>
 
-    <hub_rule name="commontown3">
-      <downtown_zone_size_perc value="0.45"/>
-      <prefab_rule name="commontown3POIS"/>
-      <street_gen level="25" length_multiplier="6">
-        <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
-        <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
-        <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
-        <alt_commands chars="T,I,N,K"/> 
-      </street_gen>
-    </hub_rule>
-  </hub_rules>
+  <hub_rule name="commontown3">
+    <downtown_zone_size_perc value="0.45"/>
+    <prefab_rule name="commontown3POIS"/>
+    <street_gen level="25" length_multiplier="6">
+      <axiom value="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN][F-FF+FF[-T]FF+FF+FFFF-FF-FF[+I]FF-F[+N]"/>
+      <rule char="T" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="I" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="N" replace_with="F-FF+FF[-T**]FF+FF+FFFF-FF-FF[+I**]FF-F[+N*K]"/>
+      <rule char="K" replace_with="[FFCT][-FFT][+FFI][--FFN][+FFT][-FFI][++FN]"/>
+      <alt_commands chars="T,I,N,K"/> 
+    </street_gen>
+  </hub_rule>
 </append>
 
-<append xpath="/rwgmixer/prefab_rules/residentialNew_Schools">
+<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='residentialNew_Schools']">
   <prefab name="xcostum_School(by_LazMan)" prob="0.25" max_count="1" />	
 </append>
 
-<append xpath="/rwgmixer/prefab_rules/gas_Station_Group">
+<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='gas_Station_Group']">
   <prefab name="xcostum_GasnWash32(by_LuckyStar)" max_count="1" />
   <prefab name="xcostum_GasStation(by_Warsaken)" max_count="1" />
   <prefab name="xcostum_Tank_Garage(by_LuckyStar)" max_count="1" />			
 </append>
 
-<append xpath="/rwgmixer/prefab_rules/industrial_Bldgs">
+<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='industrial_Bldgs']">
   <prefab name="hospital_01" />	
 </append>
 
-<append xpath="/rwgmixer/prefab_rules/wildernessGroup">
+<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='wildernessGroup']">
   <prefab rule="traderGroup" prob="0.3" max_count="9" />
   <prefab rule="W_POIs_common" prob="0.6"/>
   <prefab rule="W_POIs_rare" prob="0.4"/>
