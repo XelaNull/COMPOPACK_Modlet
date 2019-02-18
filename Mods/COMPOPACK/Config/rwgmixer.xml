@@ -1,7 +1,9 @@
 <configs>
 
+# LEAVE EXISTING HUB_GROUP 'default' FOR COMPATIBILITY WITH OTHER MODLETS
 <set xpath="/rwgmixer/cell_rules/cell_rule[@name='default']/hub_rule[@name='default']/@prob">0.3</set>"
 
+# SET ALL HUBS TO BE USED IN RWG
 <append xpath="/rwgmixer/cell_rules">
 		<cell_rule name="default">
 			<hub_rule name="asiatown" prob="0.2" />	
@@ -18,6 +20,7 @@
 		</cell_rule>
 </append>
 
+# HUB DEFINITIONS
 <append xpath="/rwgmixer/hub_rules">  
   <hub_rule name="asiatown">
     <prefab_rule name="asiatownPOIS"/>
@@ -133,6 +136,7 @@
   </hub_rule>
 </append>
 
+# PREFAB ADDITIONS TO EXISTING VANILLA GROUPS:
 <append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='residentialNew_Schools']">
   <prefab name="xcostum_School(by_LazMan)" prob="0.25" max_count="1" />	
 </append>
@@ -154,6 +158,7 @@
   <prefab rule="W_POIs_superrare" prob="0.1"/>
 </append>
 
+# NEW PREFABS & GROUPS BEING ADDED BY COMPOPACK:
 <append xpath="/rwgmixer/prefab_rules">
   <prefab_rule name="W_POIs_common">
     <prefab rule="W_POIs_common_Set_A" prob="0.3"/>
@@ -218,7 +223,6 @@
 		<prefab name="xcostum_burialshrine(by_snake0567)" max_count="1" prob="0.2" />
 		<prefab name="xcostum_rave_factory(by_orak)" max_count="1" />			
 	</prefab_rule>
-
 		
 	<prefab_rule name="W_POIs_rare">
 		<prefab rule="W_POIs_rare_Set_A" prob="0.5"/>
@@ -299,7 +303,6 @@
     <prefab name="xcostum_Flagstonemansion_sm(by_elitelex)" max_count="1" />			
     <prefab name="store_pharmacy_sm_01" max_count="1" />
     <prefab name="parking_lot_03" max_count="1"/>
-    
     <prefab rule="oldResidential_Garages" max_count="5" />
     <prefab rule="gas_Station_Group" max_count="1"/>
     <prefab rule="industrial_JunkyardsLots" max_count="4" />
@@ -338,7 +341,7 @@
     <prefab name="xcostum_Wooden_Store(by_Guppycur)" max_count="1" />
     <prefab name="xcostum_nationalparkLodge(by_Laz_Man)" max_count="1" />
     <prefab name="xcostum_deaddog_saloon(by_Libby)" max_count="1" />
-    
+
     <prefab name="house_old_bungalow_03" prob="0.18"  max_count="1" />
     <prefab name="house_old_bungalow_04" prob="0.18"  max_count="1" />
     <prefab name="house_old_bungalow_06" prob="0.18"  max_count="1" />
