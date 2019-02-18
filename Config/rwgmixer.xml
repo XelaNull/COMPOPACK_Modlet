@@ -1,6 +1,6 @@
 <configs>
 
-<remove xpath="/rwgmixer/cell_rules/default"/>
+<remove xpath="/rwgmixer/cell_rules[@name='default']"/>
 <append xpath="/rwgmixer/cell_rules">
 		<cell_rule name="default">
 			<hub_rule name="asiatown" prob="0.2" />	
