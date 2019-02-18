@@ -1,6 +1,13 @@
 <configs>
 
-<remove xpath="/rwgmixer/cell_rules[@name='default']"/>
+	<cell_rules>
+		<cell_rule name="default">
+			<hub_rule name="default" prob="1"/>
+			<wilderness_rule name="default" prob="1"/>
+		</cell_rule>
+	</cell_rules>
+<set xpath="/rwgmixer/cell_rules/cell_rule[@name='default']/hub_rule[@name='default']/@prob>0.3</set>"
+
 <append xpath="/rwgmixer/cell_rules">
 		<cell_rule name="default">
 			<hub_rule name="asiatown" prob="0.2" />	
