@@ -1,6 +1,6 @@
 <configs>
 
-<set xpath="/rwgmixer/cell_rules/cell_rule[@name='default']/hub_rule[@name='default']/@prob>0.3</set>"
+<set xpath="/rwgmixer/cell_rules/cell_rule[@name='default']/hub_rule[@name='default']/@prob">0.3</set>"
 
 <append xpath="/rwgmixer/cell_rules">
 		<cell_rule name="default">
