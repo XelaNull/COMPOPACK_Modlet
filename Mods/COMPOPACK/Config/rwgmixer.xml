@@ -1,10 +1,10 @@
 <configs>
 
-# LEAVE EXISTING HUB_GROUP 'default' FOR COMPATIBILITY WITH OTHER MODLETS
-# Lower the probability of this hub being used
+<!-- LEAVE EXISTING HUB_GROUP 'default' FOR COMPATIBILITY WITH OTHER MODLETS -->
+<!-- Lower the probability of this hub being used -->
 <set xpath="/rwgmixer/cell_rules/cell_rule[@name='default']/hub_rule[@name='default']/@prob">0.1</set>"
 
-# SET ALL HUBS TO BE USED IN RWG
+<!-- SET ALL HUBS TO BE USED IN RWG -->
 <append xpath="/rwgmixer/cell_rules">
 		<cell_rule name="default">
 			<hub_rule name="asiatown" prob="0.2" />	
@@ -21,7 +21,7 @@
 		</cell_rule>
 </append>
 
-# HUB DEFINITIONS
+<!-- HUB DEFINITIONS -->
 <append xpath="/rwgmixer/hub_rules">  
   <hub_rule name="asiatown">
     <prefab_rule name="asiatownPOIS"/>
@@ -137,7 +137,7 @@
   </hub_rule>
 </append>
 
-# PREFAB ADDITIONS TO EXISTING VANILLA GROUPS:
+<!-- PREFAB ADDITIONS TO EXISTING VANILLA GROUPS: -->
 <append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='residentialNew_Schools']">
   <prefab name="xcostum_School(by_LazMan)" prob="0.25" max_count="1" />	
 </append>
@@ -159,7 +159,7 @@
   <prefab rule="W_POIs_superrare" prob="0.1"/>
 </append>
 
-# NEW PREFABS & GROUPS BEING ADDED BY COMPOPACK:
+<!-- NEW PREFABS & GROUPS BEING ADDED BY COMPOPACK: -->
 <append xpath="/rwgmixer/prefab_rules">
   <prefab_rule name="W_POIs_common">
     <prefab rule="W_POIs_common_Set_A" prob="0.3"/>
