@@ -1,3 +1,3 @@
-I created this Modlet out of frustration that COMPOPACK required the overwriting of default game files. While this may have been necessary in old versions of 7DTD, XPATH is supported now which allows selective editing of XML files from a Modlet.
+COMPOPACK, converted to Modlet format Compiled by: Magoli Individual Prefabs are contributions by the 7DTD community. <https://7daystodie.com/forums/showthread.php?28057-Compo-Pack-for-Random-Gen>
 
-I also strove to make as few changes to the default rwgmixer.xml file as possible, while still implementing the new Prefabs. I left the "default" hub group in place so that if any other mods happen to modify these values, they would still be present and not throw an XPATH warning.
+This Modlet was created out of a need for COMPOPACK to be installed without having to replace the base rwgmixer.xml file.
