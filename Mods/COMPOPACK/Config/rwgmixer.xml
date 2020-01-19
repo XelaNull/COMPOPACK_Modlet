@@ -2,7 +2,8 @@
 
 <!-- LEAVE EXISTING HUB_GROUP 'default' FOR COMPATIBILITY WITH OTHER MODLETS -->
 <!-- Lower the probability of this hub being used -->
-<set xpath="/rwgmixer/cell_rules/cell_rule[@name='default']/hub_rule[@name='default']/@prob">0.1</set>"
+<set xpath="/rwgmixer/cell_rules/cell_rule[@name='default4k']/hub_rule[@name='default']/@prob">0.1</set>"
+<set xpath="/rwgmixer/cell_rules/cell_rule[@name='default8k']/hub_rule[@name='default']/@prob">0.1</set>"
 
 <!-- SET ALL HUBS TO BE USED IN RWG -->
 <append xpath="/rwgmixer/cell_rules">
