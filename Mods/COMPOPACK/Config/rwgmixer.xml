@@ -173,7 +173,7 @@
 		<prefab name="cabin_02" max_count="1" />
 		<prefab name="cabin_03" max_count="1" />
 		<prefab name="indian_burial_grounds_01" max_count="1" prob="0.05"/>
-		<prefab name="oldwest_graveyard" max_count="1" />
+<!--		<prefab name="oldwest_graveyard" max_count="1" /> -->
 		<prefab name="cave_01" max_count="1" />			
 		<prefab name="xvanilla_army_camp(universal)" max_count="1" />		
 		<prefab name="xcostum_Polarstation(by_magoli)" max_count="1" prob="0.4" />			
@@ -211,7 +211,7 @@
 		<prefab name="cabin_14" max_count="1" />
 		<prefab name="cabin_15" max_count="1" />			
 		<prefab name="ranger_station1" max_count="1" />
-		<prefab name="snowy_ski_lodge" max_count="1" />		
+<!--		<prefab name="snowy_ski_lodge" max_count="1" />		-->
 		<prefab name="survivor_site_01" max_count="1" />
 		<prefab name="survivor_site_02" max_count="1" />
 		<prefab name="survivor_site_03" max_count="1" />
