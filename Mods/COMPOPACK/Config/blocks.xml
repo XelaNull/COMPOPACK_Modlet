@@ -5,7 +5,9 @@ toolCookingPot
 treeDeadShrub
 terrOreGravelPlusIron
 terrSidewalk
-
+terrOreGravelPlusIron
+medicalPileRandomHelper
+qstFuseBox
 -->	
 
 <configs>
@@ -29,7 +31,18 @@ terrSidewalk
     <block name="terrSidewalk">
       <property name="Extends" value="concretePlate"/>
     </block>      
+  
+    <block name="medicalPileRandomHelper">
+      <property name="Extends" value="cntMedicalPileLarge"/>
+    </block>      
     
+    <block name="terrOreGravelPlusIron">
+      <property name="Extends" value="terrOreStoneIronRandom"/>
+    </block> 
+    
+    <block name="qstFuseBox">
+      <property name="Extends" value="fusebox"/>
+    </block>     
     
   </append>
 </configs>
