@@ -41,6 +41,10 @@ qstFuseBox
       <property name="Extends" value="cntMedicalPileLarge"/>
     </block>      
     
+    <block name="medicalPileLarge">
+      <property name="Extends" value="cntMedicalPileLarge"/>
+    </block>        
+    
     <block name="medicalPileSmall">
       <property name="Extends" value="cntMedicalPileSmall"/>
     </block>          
