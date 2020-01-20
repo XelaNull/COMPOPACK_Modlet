@@ -41,11 +41,11 @@ qstFuseBox
       <property name="Extends" value="cntMedicalPileLarge"/>
     </block>      
     
-    <block name="medicalPileRandomHelper">
+    <block name="medicalPileSmall">
       <property name="Extends" value="cntMedicalPileSmall"/>
     </block>          
     
-    <block name="medicalPileSmall">
+    <block name="shoppingBasketEmpty">
       <property name="Extends" value="cntShoppingBasketEmpty"/>
     </block>  
     
@@ -64,6 +64,11 @@ qstFuseBox
     <block name="qstFuseBox">
       <property name="Extends" value="fusebox"/>
     </block>     
+  
+    <block name="cntCar03SedanDamage0">
+      <property name="Extends" value="carWrecksRandomHelper"/>
+    </block>         
+    
     
   </append>
 </configs>
