@@ -8,6 +8,11 @@ terrSidewalk
 terrOreGravelPlusIron
 medicalPileRandomHelper
 qstFuseBox
+
+
+
+
+
 -->	
 
 <configs>
@@ -36,9 +41,25 @@ qstFuseBox
       <property name="Extends" value="cntMedicalPileLarge"/>
     </block>      
     
+    <block name="medicalPileRandomHelper">
+      <property name="Extends" value="cntMedicalPileSmall"/>
+    </block>          
+    
+    <block name="medicalPileSmall">
+      <property name="Extends" value="cntShoppingBasketEmpty"/>
+    </block>  
+    
+    <block name="shoppingCartEmpty">
+      <property name="Extends" value="cntShoppingCartEmpty"/>
+    </block>          
+    
     <block name="terrOreGravelPlusIron">
       <property name="Extends" value="terrOreStoneIronRandom"/>
     </block> 
+    
+    <block name="terrOreGravelPlusLead">
+      <property name="Extends" value="terrOreStoneLeadRandom"/>
+    </block>     
     
     <block name="qstFuseBox">
       <property name="Extends" value="fusebox"/>
