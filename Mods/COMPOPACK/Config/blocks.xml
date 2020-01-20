@@ -18,8 +18,18 @@ terrSidewalk
       <property name="Extends" value="decoCookingPot"/>
     </block>
 
-    <block name="toolCookingPot">
+    <block name="oilBarrel">
       <property name="Extends" value="cntBarrelOilSingle00"/>
     </block>
+    
+    <block name="treeDeadShrub">
+      <property name="Extends" value="treeDeadTree02"/>
+    </block>    
+
+    <block name="terrSidewalk">
+      <property name="Extends" value="concretePlate"/>
+    </block>      
+    
+    
   </append>
 </configs>
