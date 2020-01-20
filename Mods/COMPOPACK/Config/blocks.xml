@@ -1,0 +1,25 @@
+<!-- Missing Items -->
+<!--
+oilBarrel
+toolCookingPot
+treeDeadShrub
+terrOreGravelPlusIron
+terrSidewalk
+
+-->	
+
+<configs>
+	<append xpath="/blocks">
+    <block name="tire">
+    	<property name="Extends" value="decoCarTireSmallFlat"/>
+    </block>
+
+    <block name="toolCookingPot">
+      <property name="Extends" value="decoCookingPot"/>
+    </block>
+
+    <block name="toolCookingPot">
+      <property name="Extends" value="cntBarrelOilSingle00"/>
+    </block>
+  </append>
+</configs>
