@@ -1,17 +1,7 @@
 <!-- Missing Items -->
 <!--
-oilBarrel
-toolCookingPot
-treeDeadShrub
-terrOreGravelPlusIron
-terrSidewalk
-terrOreGravelPlusIron
-medicalPileRandomHelper
-qstFuseBox
-
-
-
-
+terrFertileFarmland
+cntCar03SedanDamage2
 
 -->	
 
@@ -72,7 +62,19 @@ qstFuseBox
     <block name="cntCar03SedanDamage0">
       <property name="Extends" value="carWrecksRandomHelper"/>
     </block>         
+
+		<block name="cntCar03SedanDamage1">
+      <property name="Extends" value="carWrecksRandomHelper"/>
+    </block>   
     
+		<block name="cntCar03SedanDamage2">
+      <property name="Extends" value="carWrecksRandomHelper"/>
+    </block>       
+				
+		<block name="terrFertileFarmland">
+			<property name="Extends" value="farmPlotBlock"/>
+		</block>  
+
     
   </append>
 </configs>
