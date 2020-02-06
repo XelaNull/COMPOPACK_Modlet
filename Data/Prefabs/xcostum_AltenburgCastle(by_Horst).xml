@@ -8,6 +8,7 @@
     <property name="QuestTags" value="clear,fetch,hidden_cache"/>
     <property name="DifficultyTier" value="2"/>
     <property name="Zoning" value="any,Commercial,Downtown,Industrial,ResidentialNew,ResidentialOld,Residential"/>
+    <property name="RotationToFaceNorth" value="0"/>
     <property name="YOffset" value="-4"/>
     <property name="DistantPOIYOffset" value="0"/>
     <property name="AllowedBiomes" value="snow,pine_forest,forest"/>
@@ -19,4 +20,6 @@
     <property name="SleeperVolumeGameStageAdjust" value="medium,medium"/>
     <property name="SleeperIsLootVolume" value="False,False"/>
     <property name="SleeperIsBossVolume" value="False,False"/>
+    <property name="SleeperVolumeFlags" value="0,0"/>
+    <property name="SleeperVolumeGroupId" value="0,0"/>
 </prefab>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prefab>
-    <property name="CopyAirBlocks" value="True"/>
+    <property name="CopyAirBlocks" value="False"/>
     <property name="AllowTopSoilDecorations" value="True"/>
     <property name="TraderArea" value="False"/>
     <property name="ExcludeDistantPOIMesh" value="False"/>
     <property name="ExcludePOICulling" value="False"/>
-    <property name="DifficultyTier" value="2"/>
+    <property name="DifficultyTier" value="1"/>
     <property name="Zoning" value="Commercial,Downtown,Industrial,Residential"/>
+    <property name="RotationToFaceNorth" value="0"/>
     <property name="YOffset" value="-2"/>
     <property name="DistantPOIYOffset" value="0"/>
     <property name="StaticSpawner.Size" value="32, 2, 32"/>
@@ -19,4 +20,6 @@
     <property name="SleeperVolumeGameStageAdjust" value="250,350,350,350,medium,350"/>
     <property name="SleeperIsLootVolume" value="False,False,False,False,False,False"/>
     <property name="SleeperIsBossVolume" value="False,False,False,False,False,False"/>
+    <property name="SleeperVolumeFlags" value="0,0,0,0,0,0"/>
+    <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0"/>
 </prefab>

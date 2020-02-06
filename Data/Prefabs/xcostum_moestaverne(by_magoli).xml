@@ -8,6 +8,7 @@
     <property name="QuestTags" value="clear,fetch,hidden_cache"/>
     <property name="DifficultyTier" value="1"/>
     <property name="Zoning" value="Commercial,ResidentialNew,ResidentialOld,Residential"/>
+    <property name="RotationToFaceNorth" value="0"/>
     <property name="YOffset" value="-1"/>
     <property name="DistantPOIYOffset" value="0"/>
     <property name="StaticSpawner.Size" value="32, 2, 32"/>
@@ -20,4 +21,6 @@
     <property name="SleeperVolumeGameStageAdjust" value=""/>
     <property name="SleeperIsLootVolume" value="False"/>
     <property name="SleeperIsBossVolume" value="False"/>
+    <property name="SleeperVolumeFlags" value="0"/>
+    <property name="SleeperVolumeGroupId" value="0"/>
 </prefab>
