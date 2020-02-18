@@ -75,6 +75,9 @@ cntCar03SedanDamage2
 			<property name="Extends" value="farmPlotBlock"/>
 		</block>  
 
+		<block name="terrOreGravelPlusCoal">
+			<property name="Extends" value="terrGravel"/>
+		</block>
     
   </append>
 </configs>
