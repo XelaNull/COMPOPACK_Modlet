@@ -491,7 +491,7 @@ xcostum_Walcart(by_Swolk),COMMERCIAL;DOWNTOWN;INDUSTRIAL;RESIDENTIALNEW;RESIDENT
 xcostum_WaterPark1(by_NAGGcommunity),COMMERCIAL;DOWNTOWN;INDUSTRIAL;RESIDENTIALNEW;RESIDENTIALOLD;RESIDENTIAL,3,-14,93,29,66,citycenter;downtown
 //NEW CP41-POI'S:
 xcostum_simplehouse(by_hernan),ResidentialNew;ResidentialOld;Residential,2,-5,49,23,55,houses;smalltown
-UndergroundBaseV12,0,-15,40,53,21,houses;smalltown
+UndergroundBaseV12,RESIDENTIALNEW;RESIDENTIALOLD;RESIDENTIAL,0,-15,40,53,21,houses;smalltown
 
 //XVANILLA-POI'S:
 xvanilla_abandoned_house_01,RESIDENTIALOLD,2,-1,24,21,26,houses
