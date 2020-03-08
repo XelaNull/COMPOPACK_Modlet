@@ -201,8 +201,8 @@ xvanilla_survivor_site_06,NOZONE,2,-4,25,20,25,alone;mountain
 xvanilla_survivor_site_07,NOZONE,2,-1,25,16,25,alone;mountain
 xvanilla_survivor_site_08,NOZONE,2,-1,25,23,25,alone;mountain
 fairyRing,NOZONE,0,0,38,50,38,alone;mountain
-Tor_Thorn_Cave,0,-8,42,72,43,alone;mountain
-UndergroundBaseV12,0,-15,40,53,21,alone;mountain
+Tor_Thorn_Cave,NOZONE,0,-8,42,72,43,alone;mountain
+UndergroundBaseV12,NOZONE,0,-15,40,53,21,alone;mountain
 
 
 
