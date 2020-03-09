@@ -68,7 +68,7 @@ xvanilla_army_barracks_01,INDUSTRIAL,2,-5,51,40,97,custom_settlement_size_5
 xvanilla_hotel_roadside_02,COMMERCIAL;DOWNTOWN,2,-5,45,19,45,custom_settlement_size_5
 xvanilla_parking_lot_03,COMMERCIAL;DOWNTOWN,3,-1,35,11,35,custom_settlement_size_5
 xcostum_RaceTrack(by_Guppycur),COMMERCIAL;INDUSTRIAL;RESIDENTIALNEW;RESIDENTIALOLD;RESIDENTIAL,1,-6,141,34,103,custom_settlement_size_5
-HNMALL,COMMERCIAL;DOWNTOWN,2,-23,205,50,149,custom_settlement_size_5
+HNMALL,COMMERCIAL;DOWNTOWN,2,-7,205,50,149,custom_settlement_size_5
 
 
 
@@ -202,7 +202,7 @@ xvanilla_survivor_site_07,NOZONE,2,-1,25,16,25,alone;mountain
 xvanilla_survivor_site_08,NOZONE,2,-1,25,23,25,alone;mountain
 fairyRing,NOZONE,0,-3,38,50,38,alone;mountain
 Tor_Thorn_Cave,NOZONE,0,-24,42,72,43,alone;mountain
-UndergroundBaseV12,NOZONE,0,-30,40,53,21,alone;mountain
+UndergroundBaseV12,NOZONE,0,-29,40,53,21,alone;mountain
 
 
 
@@ -491,7 +491,7 @@ xcostum_Walcart(by_Swolk),COMMERCIAL;DOWNTOWN;INDUSTRIAL;RESIDENTIALNEW;RESIDENT
 xcostum_WaterPark1(by_NAGGcommunity),COMMERCIAL;DOWNTOWN;INDUSTRIAL;RESIDENTIALNEW;RESIDENTIALOLD;RESIDENTIAL,3,-14,93,29,66,citycenter;downtown
 //NEW CP41-POI'S:
 xcostum_simplehouse(by_hernan),ResidentialNew;ResidentialOld;Residential,2,-5,49,23,55,houses;smalltown
-UndergroundBaseV12,RESIDENTIALNEW;RESIDENTIALOLD;RESIDENTIAL,0,-30,40,53,21,houses;smalltown
+UndergroundBaseV12,RESIDENTIALNEW;RESIDENTIALOLD;RESIDENTIAL,0,-29,40,53,21,houses;smalltown
 
 //XVANILLA-POI'S:
 xvanilla_abandoned_house_01,RESIDENTIALOLD,2,-1,24,21,26,houses
